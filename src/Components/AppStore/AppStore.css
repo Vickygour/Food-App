@@ -1,0 +1,24 @@
+.Play_store
+{
+   margin: 60px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.img 
+{
+   display: flex;
+   gap: 30px;
+}
+.img img
+{
+    width: 200px;
+    cursor: pointer;
+}
+.text_SIde p
+{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}

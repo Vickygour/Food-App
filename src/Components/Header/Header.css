@@ -1,0 +1,63 @@
+.header
+{
+   height: 34vw;
+   margin: 30px auto;
+   background: url('./header_img.png') no-repeat;
+   background-size: contain;
+   position: relative;
+   
+}
+.header h2
+{
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 9vw;
+    left: 7vw;
+    animation: fadeIn 3s    ;
+}
+.header p
+{
+    animation: fadeIn 3s    ;
+    color: white;
+    position: absolute;
+    top: 20vw;
+    left: 7vw;
+}
+.header button
+{
+    position: absolute;
+    top: 26vw;
+    font-size: 11px;
+    color: #747474;
+    background-color: white;
+    left: 7vw;
+    border: 0px ;
+    border-radius: 5rem;
+    width: 7rem;
+    height: 2.5rem;
+    animation: fadeIn 3s    ;
+}
+
+@media only screen and (max-width: 768px) {
+  .header h2 {
+    font-size: 20px;
+  }
+  .header p {
+    font-size: 14px;
+  }
+}
+
+/* For smaller devices like phones */
+@media only screen and (max-width: 576px) {
+  .header h2 {
+    font-size: 18px;
+  }
+  .header p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .header button {
+    font-size: 16px;
+  }
+}
