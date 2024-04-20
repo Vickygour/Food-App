@@ -19,6 +19,10 @@
 {
     width: 200px;
 }
+.Footer-left
+{
+    padding: 20px;
+}
 .Footer-right, .Footer-center,.Footer-left{
    display: flex;
    flex-direction: column;

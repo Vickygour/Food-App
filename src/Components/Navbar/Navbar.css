@@ -84,9 +84,9 @@
     }
     .Navbar .logo
     {
-        width: 150px;
+        width: 100px;
     }
-     .Navbar ul li
+     .Navbar ul 
     {
        display: none;
        
@@ -97,16 +97,16 @@
     }
     .search-icon img
     {
-        width: 20px;
+        width: 15px;
     }
     .basket-icon img
     {
-        width: 20px;
+        width: 15px;
     }
     .btn button
     {
           background-color: transparent;
-    width: 100px;
+    width: 70px;
     font-size: 15px;
     border-radius: 5rem;
     color: #49557e;
@@ -122,4 +122,9 @@
    {
    max-width: 100%;
    }
+   .Right-navbar
+   {
+    gap: 20px;
+   }
+   
 }

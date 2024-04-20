@@ -43,3 +43,39 @@
 {
     border: 4px solid tomato;
 }
+
+
+
+@media (max-width:1050px) {
+   
+}
+@media (max-width:900px) {
+   
+}
+
+@media (max-width:750px) {
+ .section p
+ {
+    font-size: 15px;
+    max-width: none;
+ }
+}
+
+
+
+@media (max-width:450px) {
+  .section p
+  {
+    font-size: 12px;
+    margin: none;
+  }
+  
+}
+
+
+@media (max-width:360px) {
+  
+
+}
+
+

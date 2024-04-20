@@ -22,3 +22,44 @@
     text-align: center;
     font-weight: 600;
 }
+
+
+
+
+@media (max-width:1050px) {
+   
+}
+@media (max-width:900px) {
+   
+}
+
+@media (max-width:750px) {
+ .section p
+ {
+    font-size: 15px;
+    max-width: none;
+ }
+}
+
+
+
+@media (max-width:450px) {
+ .text_SIde p
+{
+    font-size: 25px;
+}
+.img img
+{
+    width: 150px;
+}
+  
+}
+
+
+@media (max-width:360px) {
+  
+.text_SIde p
+{
+    font-size: 20px;
+}
+}
