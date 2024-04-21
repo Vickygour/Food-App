@@ -21,9 +21,9 @@ function App() {
      <Navbar SetLoginCart={SetLoginCart}/>
       <Routes>
       
-        <Route path='/' element={<Home/>}/>
-        <Route path='/' element={<Place_order/>}/>
-        <Route path='/' element={<Cart/>}/>
+        <Route path='' element={<Home/>}/>
+        <Route path='/Place-order' element={<Place_order/>}/>
+        <Route path='/Cart' element={<Cart/>}/>
       </Routes>
     </div>
     <Footer/>

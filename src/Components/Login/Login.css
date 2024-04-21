@@ -1,0 +1,66 @@
+.Login_Contain
+{
+    position: absolute;
+    z-index: 1;
+    display: grid;
+    background-color: #00000090;
+    height: 100%;
+    width: 100%;
+    animation: fadeIn 0.7s;
+    
+    
+}
+.Login_popup
+{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding: 25px 30px;
+    border-radius: 5%;
+}
+.Login_title
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Login_title img
+{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.input_take
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 0;
+}
+.input_take input
+{
+    padding-left: 10px;
+    outline: none;
+    width: 100%;
+    
+
+}
+.input_take button
+{
+    background-color: tomato;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+.Sign
+{
+    color: blue;
+    cursor: pointer;
+    font-weight: 600;
+}

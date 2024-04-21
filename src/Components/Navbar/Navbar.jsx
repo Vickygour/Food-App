@@ -9,7 +9,7 @@ const Navbar = ({SetLoginCart}) => {
   return (
     <>
        <div className="Navbar">
-        <img src={assets.logo} alt="" className='logo' />
+        <Link to="/"><img src={assets.logo} alt="" className='logo' /></Link>
         <ul>
         <Link onClick={()=>setmenu("Home")} className={menu==="Home"?"active":""}>Home</Link>
         <a href='#Explore' onClick={()=>setmenu("Menu")} className={menu === "Menu"?"active":""}>Menu</a>
@@ -21,7 +21,7 @@ const Navbar = ({SetLoginCart}) => {
             <img src={assets.search_icon} alt="" />
         </div>
             <div className="basket-icon">
-                <img src={assets.basket_icon} alt="" />   
+                <Link to="/Cart"><img src={assets.basket_icon} alt="" />   </Link>
                 <div className="dot"></div>
             </div>
             <div className="btn">
