@@ -1,0 +1,66 @@
+.place_contain
+{
+    display: flex;
+  
+   justify-content: space-between;
+}
+.Place_order
+{
+    margin: 35px 0px;
+}
+.Place_Title h1
+{
+    font-size: 32px;
+}
+.Place_left
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   max-width: max(50%);
+   padding: 0px 0px 50px 0px;
+}
+
+.Place_Fields 
+{
+    display: flex;
+    gap: 25px;
+}
+.Place_left input
+{
+    padding-left: 10px;
+    height: 35px;
+    border: 1px solid #c5c5c5;
+    outline-color: tomato;
+    
+}
+.Place_right
+{
+    width: 100%;
+    max-width: max(40%,500px)
+}
+.cart_proceed button
+{
+    margin-top: 30px;
+}
+
+
+
+@media (max-width:1050px) {
+    .place_contain
+{
+    display: flex;
+  
+  flex-direction: column;
+}
+.Place_left
+{
+    max-width: max(100%);
+}
+.Place_right
+{
+    width: 100%;
+   
+}
+}
